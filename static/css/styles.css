@@ -1,0 +1,486 @@
+/* Custom CSS for MyMenuBase - Enhanced UI Design */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Global Styles */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Container Enhancements */
+.main .block-container {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Enhanced Sidebar */
+.css-1d391kg {
+    background: linear-gradient(180deg, #FF6B35 0%, #FF8E53 50%, #FFA726 100%);
+    border-right: 3px solid #3B82F6;
+}
+
+.css-1d391kg .sidebar-content {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/* Enhanced Headers */
+h1 {
+    background: linear-gradient(90deg, #FF6B35, #3B82F6, #10B981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #60A5FA !important;
+    font-weight: 600;
+    border-left: 4px solid #FF6B35;
+    padding-left: 1rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+h3 {
+    color: #34D399 !important;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+/* Enhanced Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    margin: 0.5rem 0;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* Enhanced Selectbox */
+.stSelectbox > div > div {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    border-radius: 10px;
+    border: 2px solid #34D399;
+}
+
+.stSelectbox > div > div:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    transform: scale(1.02);
+}
+
+/* Enhanced Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: linear-gradient(135deg, #60A5FA 0%, #3B82F6 100%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background: linear-gradient(135deg, #FF6B35 0%, #FF8E53 100%);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+/* Enhanced Metrics */
+.stMetric {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 2px solid rgba(59, 130, 246, 0.3);
+    margin: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.stMetric:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+}
+
+.stMetric > div > div > div {
+    color: #60A5FA !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.stMetric > div > div > div:last-child {
+    color: #34D399 !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Enhanced Text Input */
+.stTextInput > div > div > input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced File Uploader */
+.stFileUploader > div {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+    border: 2px dashed #34D399;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stFileUploader > div:hover {
+    border-color: #FF6B35;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+}
+
+/* Enhanced Alerts */
+.stAlert {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+    border: 2px solid #60A5FA;
+    border-radius: 12px;
+    color: #E0E7FF;
+    font-weight: 500;
+}
+
+.stAlert[data-baseweb="alert"] {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(34, 197, 94, 0.1) 100%);
+    border-color: #34D399;
+    color: #D1FAE5;
+}
+
+.stAlert[data-baseweb="alert"][data-severity="error"] {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(220, 38, 38, 0.1) 100%);
+    border-color: #F87171;
+    color: #FEE2E2;
+}
+
+/* Enhanced Code Blocks */
+.stCodeBlock {
+    background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+    border: 2px solid #60A5FA;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* Custom Card Style */
+.custom-card {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.3);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(59, 130, 246, 0.2);
+    border-color: #FF6B35;
+}
+
+/* Status Indicators */
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s infinite;
+}
+
+.status-online {
+    background: #10B981;
+}
+
+.status-busy {
+    background: #F59E0B;
+}
+
+.status-offline {
+    background: #EF4444;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #FF6B35, #3B82F6);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #FF8E53, #60A5FA);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .stButton > button {
+        padding: 0.5rem 1rem;
+    }
+    
+    .custom-card {
+        padding: 1rem;
+    }
+}
+
+/* Additional Enhancements */
+.stMarkdown {
+    color: #E0E7FF;
+}
+
+.stMarkdown strong {
+    color: #60A5FA;
+}
+
+.stMarkdown em {
+    color: #34D399;
+}
+
+/* Enhanced DataFrames */
+.stDataFrame {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-radius: 10px;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* Enhanced Charts */
+.stPlotlyChart {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* Enhanced Expander */
+.stExpander {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+    border-radius: 10px;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+/* Enhanced Radio Buttons */
+.stRadio > div > div {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid #60A5FA;
+}
+
+/* Enhanced Checkbox */
+.stCheckbox > div > div {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    border: 1px solid #34D399;
+}
+
+/* Enhanced Multiselect */
+.stMultiSelect > div > div {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 2px solid #60A5FA;
+}
+
+/* Enhanced Number Input */
+.stNumberInput > div > div > input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stNumberInput > div > div > input:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced Text Area */
+.stTextArea > div > div > textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stTextArea > div > div > textarea:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced Date Input */
+.stDateInput > div > div > input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stDateInput > div > div > input:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced Time Input */
+.stTimeInput > div > div > input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stTimeInput > div > div > input:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced Color Picker */
+.stColorPicker > div > div > input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #60A5FA;
+    border-radius: 10px;
+    color: white;
+    padding: 0.75rem;
+}
+
+.stColorPicker > div > div > input:focus {
+    border-color: #FF6B35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+/* Enhanced Slider */
+.stSlider > div > div > div > div {
+    background: linear-gradient(90deg, #FF6B35, #3B82F6, #10B981);
+}
+
+.stSlider > div > div > div > div > div {
+    background: #60A5FA;
+    border: 2px solid #34D399;
+}
+
+/* Enhanced Progress Bar */
+.stProgress > div > div > div {
+    background: linear-gradient(90deg, #FF6B35, #3B82F6, #10B981);
+    border-radius: 10px;
+}
+
+/* Enhanced Spinner */
+.stSpinner > div {
+    border: 3px solid rgba(59, 130, 246, 0.3);
+    border-top: 3px solid #60A5FA;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Enhanced Balloons */
+.stBalloon {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+    border: 1px solid #60A5FA;
+    border-radius: 10px;
+    color: #E0E7FF;
+}
+
+/* Enhanced Success Message */
+.stSuccess {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(34, 197, 94, 0.1) 100%);
+    border: 1px solid #34D399;
+    border-radius: 10px;
+    color: #D1FAE5;
+}
+
+/* Enhanced Info Message */
+.stInfo {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(96, 165, 250, 0.1) 100%);
+    border: 1px solid #60A5FA;
+    border-radius: 10px;
+    color: #DBEAFE;
+}
+
+/* Enhanced Warning Message */
+.stWarning {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(251, 191, 36, 0.1) 100%);
+    border: 1px solid #F59E0B;
+    border-radius: 10px;
+    color: #FEF3C7;
+}
+
+/* Enhanced Error Message */
+.stError {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(248, 113, 113, 0.1) 100%);
+    border: 1px solid #F87171;
+    border-radius: 10px;
+    color: #FEE2E2;
+}
